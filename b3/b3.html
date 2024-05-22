@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&family=Space+Grotesk:wght@300..700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="b3.css" />
+        <title>Bài 3</title>
+    </head>
+    <body>
+        <div class="menu">
+            <h1>Drop Us a Line</h1>
+            <p class="content">
+                Reach out to us from our contact from and we and we will back to
+                you shortly
+            </p>
+
+            <form>
+                <div class="form-group">
+                    <input
+                        class="textinput"
+                        type="text"
+                        name="first name"
+                        id="first"
+                        required
+                        placeholder=""
+                    />
+                    <label class="text" for="first">First Name *</label>
+                </div>
+                <div class="form-group">
+                    <input
+                        class="textinput"
+                        type="text"
+                        name="first name"
+                        id="last"
+                        required
+                        placeholder=""
+                    />
+                    <label class="text" for="last">last Name *</label>
+                </div>
+                <div class="form-group">
+                    <input
+                        class="textinput"
+                        type="email"
+                        name="first name"
+                        id="email"
+                        required
+                        placeholder=""
+                    />
+                    <label class="text" for="email">Email *</label>
+                </div>
+                <div class="form-group">
+                    <div class="form-select">
+                        <select name="department">
+                            <option value="sales">Sales</option>
+                            <option value="marketing">Marketing</option>
+                            <option value="cs">Customer Support</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group form-grouptext" style="width: 100%">
+                    <textarea
+                        class="textarea"
+                        name="message"
+                        id=""
+                        cols="30"
+                        rows="10"
+                        placeholder=""
+                    ></textarea>
+                    <label class="mess" for="mess">Message *</label>
+                </div>
+                <div class="form-btn">
+                    <button type="submit">Send message</button>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
